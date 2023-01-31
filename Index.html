@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="style.CSS">
+         <title>Decodificador</title>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="caixa">
+                 <img class="cabecalho-imagem" src="/Picture/BorboletaLogo.png" alt="Logo de uma Borboleta">
+                 <nav>
+                    <a>codificador de texto</a>
+                 </nav>
+            </div>
+        </header> 
+
+        <main>
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Digite Seu Texto..."></textarea>
+                <div>
+                    <h6 class="TextoA">Apenas letras minúsculas e sem acento.</h6>
+                </div>
+
+                <div class="Botoes" >
+                    <button  class="btnC" onclick="btnCriptografar()" > Criptografar </button>
+                    <button  class="btnD" onclick="btnDesencriptografar()"  > Descriptografar </button>
+                </div>
+            </section>
+      
+            <section class="mensagem-box">
+                <textarea class="mensagem" cols="18" rows="8" placeholder=" " ></textarea>
+
+                <div>
+                 <button id="copy" > Copiar </button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <center>
+                <img class="imagem1" src="/Picture/linkedin.jpg" alt="Logo do Linkedin">
+                <img class="imagem2 " src="/Picture/GitHub.png" alt="Logo do GitHub" >
+                <p class="Copyright"> &copy; Copyright Anielle - 2023</p>
+            </center>
+        </footer>
+
+        <script src="script.JS"></script>
+    </body>
+</html>
