@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+body{
+    font-size: 100%;
+}
+
+
+header{
+    margin-left: 0px;
+    background: #c08457; 
+}
+
+
+.cabecalho{
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+.caixa{
+    position: relative;
+    width: 950px;
+    margin: 0 auto; 
+}
+
+
+.cabecalho-imagem{
+    height: 70px;
+    
+}
+
+
+nav{
+    top: 10px;
+    right: 0px;
+    display: inline;
+    
+}
+
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 0 0 310px;
+}
+
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+
+.input-texto{
+    resize: none;
+    margin-top:90px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 135px;
+    font-size: 14px;
+}
+
+
+.TextoA{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 400px;
+    height: 10px;
+    font-size: 14px;
+}
+
+.Botoes{
+    display:flex;
+    flex-direction:row;
+    margin-top:50px;
+    gap: 30;
+    justify-content: space-evenly;
+}
+
+.btnC{
+    width: 200px;
+    height: 70px;
+    border: none;
+    box-shadow: 1px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+    background-color: #a84818;
+    color:black
+}
+
+.btnD{
+    width: 200px;
+    height: 70px;
+    border: none;
+    box-shadow: 1px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-left: 30px;
+}
+
+
+.mensagem-box{
+    display: inline-block;
+   
+}
+
+
+.mensagem{
+    resize: none;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: auto;
+    width: 400px;
+    height: 135px;
+    font-size: 14px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+
+#copy{
+
+    border: none;
+    box-shadow: 1px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top:330px;
+    margin-left: auto;
+    width: 200px;
+    height: 70px;
+    margin: auto;
+}
+
+
+.rodape{
+    background: #c08457;
+}
+
+
+.imagem1{
+    width: 42px;
+    height: 39px;
+}
+
+
+.imagem2{
+    width:55px; 
+    height:55px;
+}
+
+
+.Copyright{
+    color: aliceblue;
+    font-size: 12px;
+    margin: 50 10 10 10;
+}
